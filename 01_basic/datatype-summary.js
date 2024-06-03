@@ -32,4 +32,27 @@ const myFunction = function(){
 
 console.log(typeof myFunction);
 
+// ========================== //
 
+// memory used in javascript
+
+//  Stack (Primitive datatype are store in stack), Heap(Non-Primitive datatype are store in heap)
+
+let myyoutubename = "AmitPrasad";
+
+let myAnother = myyoutubename;
+myAnother = "Aalupokora";
+
+console.log(myyoutubename);
+console.log(myAnother);
+
+let userOne = {
+    email : "amit00@gamil.com",
+    upi : "oksbi@paytam"
+};
+
+let userTwo = userOne;
+userTwo.email = "baba@gamil.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
