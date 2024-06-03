@@ -65,36 +65,50 @@
 // console.log("");
 // console.log(+"");
 
-let gameCounter = 100
+// let gameCounter = 100
 
-// gameCounter++;
-// console.log(gameCounter);
-// ++gameCounter;
-// console.log(gameCounter);
+// // gameCounter++;
+// // console.log(gameCounter);
+// // ++gameCounter;
+// // console.log(gameCounter);
 
-let x = 3;
-const y = x++;
+// let x = 3;
+// const y = x++;
 
-console.log(`x:${x}, y:${y}`);
-// Expected output: "x:4, y:3"
+// console.log(`x:${x}, y:${y}`);
+// // Expected output: "x:4, y:3"
 
-let a = 3;
-const b = ++a;
+// let a = 3;
+// const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
-// Expected output: "a:4, b:4"
-let x = 3;
-const y = x++;
+// console.log(`a:${a}, b:${b}`);
+// // Expected output: "a:4, b:4"
+// let x = 3;
+// const y = x++;
 
-console.log(`x:${x}, y:${y}`);
-// Expected output: "x:4, y:3"
+// console.log(`x:${x}, y:${y}`);
+// // Expected output: "x:4, y:3"
 
-let a = 3;
-const b = ++a;
+// let a = 3;
+// const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
-// Expected output: "a:4, b:4"
+// console.log(`a:${a}, b:${b}`);
+// // Expected output: "a:4, b:4"
 
+
+// avoid this type comparision;
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+
+// ===
+
+console.log("2" === 2);
 
 
 
