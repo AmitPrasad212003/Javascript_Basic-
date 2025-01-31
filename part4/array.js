@@ -76,10 +76,14 @@ menuLength = teaMenu.length;
 
 let cityBucketList = ["Kyoto", "London", "cape town", "Vancourver"];
 
-let islondonInList = cityBucketList.includes("London")
-console.log(islondonInList);
-
-let islondonInList1 = cityBucketList.includes("london") // true/ false
-console.log(islondonInList1);
+// console.log(cityBucketList.reverse());
 
 
+// let islondonInList = cityBucketList.includes("London")
+// console.log(islondonInList);
+
+// let islondonInList1 = cityBucketList.includes("london") // true/ false
+// console.log(islondonInList1);
+
+let arr = [1, 2, 3, 4];
+console.log(arr.indexOf(3));
