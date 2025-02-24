@@ -1,0 +1,15 @@
+Mon Feb 24 2025 - Application satarted 
+Mon Feb 24 2025 - Application event occurred 
+Mon Feb 24 2025 - Current memory usage: 72.95 
+Mon Feb 24 2025 - Current memory usage: 72.95 
+Mon Feb 24 2025 - Current memory usage: 72.76 
+Mon Feb 24 2025 - Current memory usage: 72.67 
+Mon Feb 24 2025 - Current memory usage: 73.12 
+Mon Feb 24 2025 - Current memory usage: 72.81 
+Mon Feb 24 2025 - Current memory usage: 72.72 
+Mon Feb 24 2025 - Current memory usage: 73.15 
+Mon Feb 24 2025 - Current memory usage: 73.15 
+Mon Feb 24 2025 - Current memory usage: 72.79 
+Mon Feb 24 2025 - Current memory usage: 72.76 
+Mon Feb 24 2025 - Current memory usage: 72.75 
+Mon Feb 24 2025 - Current memory usage: 72.85 
