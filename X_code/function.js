@@ -120,3 +120,86 @@ console.log(calculator);
 console.log(calculator.div(6,9));
 
 console.log(typeof String);
+
+//Write a JavaScript function that returns array elements larger than a number
+
+let arr = [8,9,10,1,2,3,4,5,6,7];
+let num = 5;
+//elements larger than  a number num 
+function getElements(arr,num){
+    for(let i = 0; i<arr.length; i++){
+        if(arr[i]>num){
+            console.log(arr[i]);
+        }
+    }
+}
+getElements(arr,num);
+
+//Write  a JavaScript function to extract unique characters from a string.
+let str1 ="abcdabcdefgggh";
+
+// function to get String with all unique elements
+function getUnique(str){
+    let ans = "";
+
+    for(let i = 0; i < str.length; i++){
+        let currChar = str[i];
+        if(ans.indexOf(currChar) == -1){
+            ans += currChar;
+        }
+    }
+    return ans;
+}
+
+console.log(getUnique(str1));
+;
+
+//returns the longest country name as output.
+let country = ["Australia","Germany","UnitedStatesofAmerica"];
+
+function logestName(country){
+    let ansIdx = 0;
+    for(let i = 0; i < country.length; i++){
+        let ansLen = country[ansIdx].length;
+        let currLen = country[i].length;
+        if(currLen > ansLen){
+            ansIdx = i;
+        }
+    }
+    return country[ansIdx];
+}
+
+console.log(logestName(country));
+;
+//function to count the number of vowels in aString argument
+let str2 = "apnacollege";
+
+function countVowel(str){
+    let count = 0;
+    for(let i = 0; i< str.length; i++){
+        if(str.charAt(i) == "a" ||
+            str.charAt(i) == "e" ||
+            str.charAt(i) == "i" ||
+            str.charAt(i) == "o" ||
+            str.charAt(i) == "u"){
+                count++;
+            }
+    }
+    return count;
+}
+
+console.log(countVowel(str2));
+;
+
+//Write  a JavaScript function to generate a random number within a range(start,end)
+
+let start = 100;
+let end = 200;
+
+function generateRandom(start, end){
+    let diff = end - start;
+    return Math.floor(Math.random()*diff) + start;
+}
+
+console.log(generateRandom(start, end));
+;
