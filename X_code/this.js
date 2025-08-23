@@ -21,10 +21,12 @@ const student = {
 }
 
 console.log(student.getAvg());
+console.log(student?.getnkAvg?.());
 
 
-console.log(this);
+
+// console.log(this);
 
 
-console.log("345amit".toUpperCase());
-console.log("345amIT".toLowerCase());
+// console.log("345amit".toUpperCase());
+// console.log("345amIT".toLowerCase());
