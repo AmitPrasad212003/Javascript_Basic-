@@ -1,5 +1,12 @@
 // setTimeout() is a built-in asynchronous function in JavaScript that schedules a callback function to be executed after a specified delay (in milliseconds).
 
+
+setTimeout((msg) => {
+  console.log(msg);
+}, 1000, "Hello World");
+// Prints "Hello World" after 1s
+
+
 console.log("Start");
 
 setTimeout(() => {
